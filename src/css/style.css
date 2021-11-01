@@ -4,6 +4,27 @@ body {
     font-family: Arial, serif;
     color: #2e2e2e;
 }
+section {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 27px;
+    margin-top: 200px;
+}
+ol {
+    text-align: left;
+}
+ul {
+    list-style-type: circle;
+}
+
+.padding {
+    padding-right: 500px;
+    padding-left: 500px;
+}
+.h1 {
+    font-size: 50px;
+}
 
 .header {
     text-align: center;
@@ -22,16 +43,12 @@ body {
     margin-right: auto;
 }
 
-.abstract {
-    text-align: center;
-    margin-top: 200px;
-    font-size: 27px;
-    padding-right: 500px;
-    padding-left: 500px;
+.intro {
+
 }
-.abstract h1 {
-    font-size: 50px;
-}
+
+.abstract {}
+
 .abstract span {
     display: block;
     margin-bottom: 30px;
@@ -48,6 +65,7 @@ body {
     text-align: center;
     text-decoration: none;
     color: #FFF;
+    border-radius: 25px;
 }
 
 .bold {
