@@ -1,9 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <a href="web/viewer.html?file=../main.pdf">Show PDF Thesis</a>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mango Instant Messenger</title>
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="icon" type="image/png" href="./src/img/favicon.ico" sizes="16x16" />
+</head>
+<body>
+<header class="header">
+  <img src="./src/img/mango_icon.svg" alt="Mango Messenger Icon" class="logo">
+  <h1>Mango Messenger</h1>
+  <span>Bachelor's Thesis</span>
+</header>
+<main>
+  <section class="abstract padding">
+    <h1>Abstract</h1>
+    <span style="word-wrap: break-word;">Nowadays, instant messaging systems achieve a great success and became the main mean of communication between people via an internet. Thanks to the simplicity and quickness of the message exchanging more and more people over the world start to use instant messengers on daily basis. However, such a great attention forces us to discuss another aspect of these systems, an aspect of the information security and user privacy. The main aim of this thesis is to design and implement an instant messaging system that copes with the required functionalities and satisfies the defined security requirements.
+    </span>
+  </section>
+  <section class="intro padding">
+    <h1>Introduction</h1>
+    <ol>
+      <li>
+        Chapter 2 provides the functional and non-functional requirements for instant messaging system
+      </li>
+      <li>
+        Chapter 3 eliminates security and user privacy vulnerabilities of the instant messaging system by means of threat modelling.
+      </li>
+      <li>
+        In chapter 4 we design and discuss instant messaging system, going into details
+        <ul>
+          <li>
+            To propose web service architecture that fits the requirements
+          </li>
+          <li>
+            To propose an authorization mechanism that fits the requirements.
+          </li>
+          <li>
+            To propose mitigations for security and user privacy vulnerabilities discussed in chapter 3.
+          </li>
+          <li>
+            To design database structure.
+          </li>
+          <li>
+            To propose planned technologies to be used during implementation of
+            the system.
+          </li>
+        </ul>
+      </li>
+      <li>
+        To discuss and apply E2E Encryption to the system.
+      </li>
+      <li>
+        To design user interface that fits the designated functional requirements.
+      </li>
+      <li>
+        To implement following modules
+        <ul>
+          <li>
+            <strong>Web Service (API).</strong> Application Programming Interface that allows developers to create their own clients. Web service to be implemented using latest for the moment of writing of this thesis .NET 5 platform.
+          </li>
+          <li>
+            <strong>Web Client.</strong> Web client of the Mango Messenger. Web client to be implemented using Angular front-end framework with TypeScript programming language.
+          </li>
+          <li>
+            <strong>Mobile Client.</strong> Mobile client of the Mango Messenger for target platforms: Android, IOS.
+          </li>
+          <li>
+            <strong>Desktop Client.</strong> Desktop client of the Mango Messenger for target platforms Windows, Linux, MacOS. Desktop client to be implemented by means of existing web client and ElectronJS framework.
+          </li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+  <section>
+    <a class="button" href="web/viewer.html?file=../main.pdf" target="_blank">View PDF</a>
+  </section>
+</main>
+  
+</body>
 </html>
